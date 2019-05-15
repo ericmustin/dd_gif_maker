@@ -6,3 +6,4 @@ package-lock.json
 /*.gif
 snapshots/*.png
 /*.png
+!example_timeseries_viz.gif

@@ -112,7 +112,7 @@ let init = async (args) => {
     if (revoke_response.errors !== undefined && revoke_response.errors.length > 0) {
       console.warn(`dogapi revoke embed error ${revoke_response.errors.toString()}`)
     } else {
-      console.log('successfully revoked dd embed id embed_id')
+      console.log(`successfully revoked dd embed id ${embed_id}`)
     }
 
     // make gif then clean up snapshots
