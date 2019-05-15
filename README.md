@@ -5,6 +5,8 @@ make gifs of your dd timeseries queries
 ## setup
 
 - clone repository
+- run `brew install imagemagick`
+- run `brew install graphicsmagick`
 - run `npm install`
 - add your Datadog `API_KEY` and `APP_KEY` to the `.env` file in this repository. DatadogHQ is a monitoring platform that's free to sign up for at `https://www.datadoghq.com/`.
 
