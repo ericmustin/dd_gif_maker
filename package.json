@@ -1,0 +1,20 @@
+{
+  "name": "dd_gif_maker",
+  "version": "1.0.0",
+  "description": "make gifs of your timeseries queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eric mustin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dogapi": "^2.8.3",
+    "dotenv": "^8.0.0",
+    "gm": "^1.23.1",
+    "puppeteer": "^1.15.0",
+    "rimraf": "^2.6.3",
+    "yargs": "^13.2.4"
+  }
+}
