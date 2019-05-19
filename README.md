@@ -24,3 +24,11 @@ done deleting snapshot pngs
 
 ### example gif output
 ![example_timeseries_viz](./example_timeseries_viz.gif)
+
+
+### TODO
+- queries with multiple lines
+- multiple queries
+- area charts (bar charts are canvas, probably out of scope)
+- event overlay
+- template variables

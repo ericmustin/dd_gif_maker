@@ -1,5 +1,5 @@
-var gm = require('gm').subClass({imageMagick: true});
 require('dotenv').config();
+const gm = require('gm').subClass({imageMagick: true});
 const dogapi = require('dogapi');
 const axios = require('axios');
 const util = require('util');
